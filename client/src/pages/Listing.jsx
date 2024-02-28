@@ -107,7 +107,8 @@ export default function Listing() {
                   $
                   {(
                     +listing.regularPrice - +listing.discountPrice
-                  ).toLocaleString("en-US")}
+                  ).toLocaleString("en-US")}{" "}
+                  Discount
                 </p>
               )}
             </div>
